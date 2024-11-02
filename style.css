@@ -1,0 +1,579 @@
+/* general content */
+
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+
+/* general - main */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body{min-height:300vh;}
+
+*{list-style-type:none;}
+
+.main-head{display:flex;
+           align-items:center;
+           justify-content:space-between;
+           padding:35px 7%;
+}
+
+.nav-bar{transform:translateX(50px);}
+
+.main-head .logo h2{font-size:1.9rem;
+  font-family: "Audiowide", sans-serif;
+  font-weight:700;
+  background:linear-gradient(to left , gray ,darkblue 50%);
+  background-clip:text;
+  color:black;
+  font-style: normal
+}
+
+
+/* 
+h2{font-size:1.5rem;
+  font-family: "Audiowide", sans-serif;
+  font-weight:700;
+  font-size:2.4rem;
+  background:linear-gradient(to left,#EC8305,darkblue 30%);
+  background-clip:text;
+  color:transparent;
+  font-style: normal
+}
+*/
+
+.image-main{transform:translateY(5px);}
+
+.two-button .info{padding:9px 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight:550;
+    font-size:1;
+    border-radius:50px;
+    text-transform:uppercase;
+    border:none;
+    margin:0 20px;
+    color:black;
+    background:transparent;
+    border:1px solid black;
+    cursor:pointer;
+    font-style: normal;
+}
+
+.text-content button{padding:12px 35px;
+font-family: "Poppins", sans-serif;
+font-weight:550;
+border-radius:50px;
+border:1px solid black;
+margin:0 20px;
+cursor:pointer;
+background:transparent;
+color:black;
+font-style: normal;
+}
+
+.aura-content button{padding:12px 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight:550;
+  border-radius:50px;
+  border:1px solid black;
+  margin:0 20px;
+  cursor:pointer;
+  background:transparent;
+  color:black;
+  font-style: normal;
+  }
+
+.hero-page{display:flex;
+           align-items:center;
+           padding:5% 150px;
+           color:whitesmoke;
+           justify-content:space-between;
+}
+
+.color{background:linear-gradient(to left,#EC8305,darkblue 30%);
+       background-clip:text;
+       color:transparent;
+       font-size:8rem;
+}
+
+.colors{background:linear-gradient(to left,#EC8305,darkblue 30%);
+  background-clip:text;
+  color:transparent;}
+
+.bx-menu-alt-left{font-size:2.8rem;
+                  cursor:pointer;
+                  color:#E3651D;}
+
+.text-content h1{font-size:5.5rem;
+                 font-weight:700;
+                 color:black;
+                 line-height:130px;
+                 text-transform:capitalize;
+                 font-family:'poppins';}
+
+.chart{transform:translateY(-150px);}
+
+.text-content p{font-size:0.85rem;
+                font-family:'poppins';
+                margin:10px 0;
+                color:black;
+                font-weight:400;}
+
+.nav-bar li,a{margin-inline:60px;
+              display:inline-block;}
+
+.nav-bar{font-family:'poppins';
+         font-weight:400;
+         text-transform:capitalize;
+         font-size:1rem;}
+
+.text-content button{transform:translateX(3px);}
+
+.text-content h1{background:linear-gradient(to left,bisque,black 0%);
+       background-clip:text;
+       color:whitesmoke;
+       color:transparent;
+       transform:translateX(-20px);}
+
+.info-content .image img{border-radius:50%;
+                         border:4px solid whitesmoke;               
+}
+
+
+.aura-content h1{font-size:1.5rem;
+                 text-transform:capitalize;
+                 font-weight:700;
+                 margin:15px 0; 
+                 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.aura-content{transform:translateX(35px);
+}
+
+.aura-content p{font-family:'poppins';
+                font-weight:500;
+                width:90%;
+                font-size:0.82rem;
+                margin-bottom:2%;
+                line-height:18px;
+                color:gray;}
+
+
+.logo.active{filter:blur(30px);}
+
+.nav-bar.active{filter:blur(30px);}
+
+.info.active{filter:blur(30px);
+}
+
+
+.back-holder.active{filter:blur(30px);}
+
+.humberger.active{filter:blur(30px);}
+
+#mainSection.active{filter:blur(30px);
+                    transition:0.5s ease;}
+
+.info-content{z-index:-1;}
+
+.aura-content button h2{ font-family:'poppins',sans-serif;
+  font-weight:700;
+  font-size:0.85rem;
+  text-transform:capitalize;
+}
+.aura-content button{background:whitesmoke;
+                     margin:10px;
+                     padding:10px 35px;
+                     font-family:'poppins',sans-serif;
+                     font-weight:700;
+                     font-size:0.85rem;
+                     transform:translateX(-15px);}
+
+.info-content{position:absolute;
+              top:50%;
+              display:flex;
+              align-items:center;
+              gap:3rem;
+              display:none;
+              max-width:800px;
+              border-radius:10px;
+              justify-content:space-between;
+              left:50%;
+              background:black;
+              padding:50px;
+              color:whitesmoke;
+              z-index:1;
+              transform:translate(-50%,-50%);}
+
+.mini-feature{margin-left:8%;}
+
+#mobileNav{display:none;}
+
+#navIcon{display:none;}
+
+
+@media screen and (max-width:1342px)
+{
+
+.hero-page{display:flex;
+    align-items:center;
+    text-align:center;
+    padding:5% 150px;
+    justify-content:center;
+    flex-direction:column;
+}
+
+}
+
+@media screen and (max-width:1253px)
+{
+
+.nav-bar li,a{margin-inline:30px;}
+
+}
+
+@media screen and (max-width:973px)
+{
+
+#navIcon{display:block;}
+
+}
+
+@media screen and (max-width:973px)
+{
+
+nav{display:none;}
+
+.two-button button{display:none;}
+}
+
+.closing-button{position:absolute;
+                top:30px;
+                font-size:2.5rem;
+                right:20px;}
+
+
+.contentNav
+  {background:linear-gradient(to bottom,gray,darkblue,gray);
+   position:fixed;
+   top:0;
+   color:whitesmoke;
+   display:none;
+   right:0;
+   z-index:1;
+   min-height:100vh;
+   width:100%;  
+  }
+
+/* background:rgba(255,255,255,0.7);
+   backdrop-filter:blur(10px); */
+
+.a{display:flex;
+   align-items:center;
+}
+
+.contentNav i{margin-right:10px;}
+
+.contentNav li{margin-bottom:110px;}
+
+.contentNav{font-family:'poppins';
+           font-size:1.2rem;
+           font-weight:400;
+           display:flex;
+           align-items:center;
+           justify-content:center;         
+}
+
+
+/* second-content */
+
+label{display:flex;
+      align-items:center;
+      gap:1.9rem;
+}
+
+#service{display:flex;
+         align-items:center;
+         margin:4% 3%;
+         justify-content:space-evenly;
+}
+
+.service-section{background:#F5F5F7;
+                 width:100%;
+                 padding:2% 0;}
+
+.right-content img{max-width:700px;
+                   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+                   cursor:pointer;        
+}
+                 
+label .content{transform:translateY(45px);
+               margin-bottom:13%;
+}
+
+.image-inside h1{font-size:1.9rem;
+                 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                 font-weight:700;
+}
+
+.image-inside p{font-family:'poppins';
+                font-size:1.2rem;
+                margin-bottom:7%;
+                margin-top:5%;
+                font-weight:500;}
+
+.service-section{position:relative;}
+
+.left-content label{margin:3% 0;}
+
+label h1{font-size:2rem;
+         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-transform:capitalize;
+         margin-bottom:2%;
+         font-weight:700;}
+
+label p{font-weight:400;
+        font-size:0.95rem;
+        font-family:'poppins';
+}
+
+.header-section h2{text-align:center;
+                 font-size:3.5rem;
+                 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                 font-weight:800;
+                 text-transform:capitalize;}
+
+@media screen and (max-width:860px)
+{
+
+.text-content .color{font-size:3.5rem;}
+
+.text-content h1{font-size:3.5rem;
+    font-weight:700;
+    line-height:55px;
+    text-transform:capitalize;
+    font-family:'poppins';}
+
+.mobile img{width:500px;}
+
+}
+
+@media screen and (max-width:583px)
+{
+
+.hero-page{text-align:center;}
+
+.text-content h1{font-size:2.5rem;
+                 text-align:center;
+}
+
+.mobile img{max-width:400px;}
+}
+
+@media screen and (max-width:431px)
+{
+.mobile img{max-width:300px;}
+}
+
+
+@media screen and (max-width:750px)
+{
+
+.text-content .color{font-size:3rem;}
+
+}
+
+@media screen and (max-width:655px)
+{
+
+.text-content button{margin-bottom:3.5%;}
+
+
+}
+
+@media screen and (max-width:653px)
+{
+
+.text-content h1{white-space:nowrap;
+                line-height:75px;
+                transform:translateX(2px);
+                width:100%;}
+
+
+}
+
+@media screen and (max-width:420px)
+
+{
+
+.mobile button:nth-child(2){
+  background:darkblue;
+}
+
+}
+
+@media screen and (max-width:589px)
+{
+
+.text-content h1{line-height:55px;}
+
+}
+
+/* second -section */
+
+@media screen and (max-width:1342px)
+{
+
+.service-section{margin:10% 0;}
+
+#service{display:flex;
+  align-items:center;
+  flex-direction:column;
+  gap:3rem;
+  margin:4% 3%;
+  justify-content:space-evenly;
+}
+
+.right-content img{width:100%;
+                   clip-path:none;
+                   border-top-left-radius:30%;
+                   border-bottom-right-radius:30%;}
+
+
+.header-section h2{margin-top:5%;
+                   font-size:4rem;
+                   font-family:'poppins';
+
+} 
+
+}
+
+@media screen and (max-width:760px)
+{
+
+.header-section h2{font-size:2.8rem;}
+
+}
+
+@media screen and (max-width:599px)
+{
+
+
+label h1{font-size:1.9rem;}
+
+}
+
+/* animation for second page  */
+
+.right-content{animation:moving 0.5s ease;
+  animation-timeline:view();}
+
+.left-content label{animation:sideward 0.8s linear;
+
+  animation-timeline:view();}
+
+@keyframes sideward{
+ 
+      0%{transform:translateX(250px);
+         opacity:0;
+      }
+
+      30%{
+        transform:translateX(50px);
+        opacity:1;
+      }
+
+  
+}
+
+@keyframes moving{
+        
+     0%{
+      transform:translateX(150px);
+     }
+
+     50%{
+      transform:translateX(0px);
+     }
+  
+}
+
+.service-section{
+  animation:fade linear;
+  animation-timeline:view();}
+
+@keyframes fade {
+    
+    0%{
+        opacity:0.3;
+    }
+
+    50%{
+        opacity:0.9;
+    }
+
+    100%{
+      opacity:1;
+    }
+
+
+}
+
+@media screen and (max-width:387px)
+{
+.header-section h2{font-size:1.8rem;
+}
+
+}
+
+/*  
+@media screen and (max-width:680px)
+{
+
+  .text-content p{font-size:0.65rem;
+    font-family:'poppins';
+    color:black;
+    width:100%;
+    text-align:center;
+    font-weight:400;}
+
+}
+
+
+@media screen and (max-width:653px)
+{
+
+.text-content h1{font-size:3rem;
+                 width:100%;}
+
+}
+/*  
+
+@media screen and (max-width:583px)
+{
+
+.hero-page{text-align:center;}
+
+
+.text-content h1{font-size:2.5rem;
+                 text-align:center;
+}
+
+
+.text-content .color{font-size:2.5rem;
+  white-space:nowrap;
+  text-align:center;}
+
+.mobile img{max-width:400px;}
+}
+
+@media screen and (max-width:431px)
+{
+
+
+
+.mobile img{max-width:300px;}
+
+
+}
